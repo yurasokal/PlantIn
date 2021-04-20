@@ -1,6 +1,15 @@
 .search {
   background: #cfede6;
   border-radius: 16px;
+  display: flex;
+
+  &__left {
+    padding: 56px;
+  }
+
+  &__right {
+    align-items: right;
+  }
 
   &__heading {
     color: #04bf94;
@@ -12,6 +21,8 @@
   }
 
   &__text {
+    padding-bottom: 16px;
+    padding-top: 8px;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -21,17 +32,29 @@
 }
 
 .has-search .form-control {
-  padding-left: 2.375rem;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 450px;
+  padding: 16px;
+
 }
 
-.has-search .form-control-feedback {
+.has-search {
+  position: relative;
+  
+}
+
+.form-control-feedback {
   color: #aaa;
   display: block;
   height: 2.375rem;
+  left: 400px;
   line-height: 2.375rem;
   pointer-events: none;
   position: absolute;
   text-align: center;
+  top: 15px;
   width: 2.375rem;
   z-index: 2;
 }
