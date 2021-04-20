@@ -1,7 +1,7 @@
 {
-  "name": "vanilla_template",
+  "name": "example",
   "version": "1.0.0",
-  "description": "Template for vanilla(no framework) frontend projects",
+  "description": "payout page",
   "main": "./src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yurasokal/vanilla_template.git"
+    "url": "git+https://github.com/yurasokal/example.git"
   },
   "keywords": [
     "template",
@@ -31,9 +31,9 @@
   "author": "yurasokal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yurasokal/vanilla_template/issues"
+    "url": "https://github.com/yurasokal/example/issues"
   },
-  "homepage": "https://github.com/yurasokal/vanilla_template#readme",
+  "homepage": "https://github.com/yurasokal/example#readme",
   "devDependencies": {
     "concurrently": "^6.0.2",
     "eslint": "^7.24.0",
