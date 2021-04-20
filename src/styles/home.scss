@@ -1,8 +1,4 @@
-/* TODO: add styles */
-
-$base-font-size: 16px;
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: $base-font-size;
-}
+@import 'reset';
+@import 'nav';
+@import 'main';
+@import 'search';

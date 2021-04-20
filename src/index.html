@@ -11,41 +11,71 @@
       integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" 
       crossorigin="anonymous" 
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
 
-    <nav>
-      <div class="logo"><h1>Deltaty</h1></div>
+    <nav class="nav">
+      <div class="nav__logo">
+        <img
+          class="logo__img"
+          src="./images/header/firstLogo2.png"
+          alt="logo plantin"
+        >
+        <img
+          class="logo__text"
+          src="./images/header/secondLogo2.png"
+          alt="logo plantin"
+        >
+        
+      </div>
       <div class="openMenu"><i class="fa fa-bars"></i></div>
-      <ul class="mainMenu">
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">My Plants</a></li>
-          <li><a href="#">Diseases</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <div class="closeMenu"><i class="fa fa-times"></i></div>
+      <ul class="nav__mainMenu">
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">My&nbsp;Plants</a></li>
+        <li><a href="#">Diseases</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact&nbsp;Us</a></li>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
       </ul>
+      <!-- <i class="nav__fa fa fa-search"></i>
+      <i class="nav__fa fa fa-user"></i> -->
   </nav>
 
-    <header class="header">
+    <!-- <header class="header">
       <logo class="logo">logo</logo>
-      <div class="nav">nav</div>
+      <div class="nav1">nav</div>
       <div class="search">search logo</div>
       <div class="search">user</div>
     </header>
 
     <div>
 
-    </div>
+    </div> -->
 
-    <main>
-      <div>Home > Blog</div>
+    <main class="main">
+      <p className="main__home">Home > Blog</p>
 
       <section class="search">
-        <h2 class="search__heading">Stay always tuner with planting trends</h2>
-        <div class="text">Tips & Tricks selected specially for you!</div>
-        <div class="search__input">Search + search logo</div>
+        <div class="search__left">
+          <h2 class="search__heading">Stay always tuner with planting trends</h2>
+          <div class="search__text"><strong>Tips & Tricks</strong> selected specially for <strong>you!</strong></div>
+  
+          <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </div>
+        <div class="search__right">
+          <img
+          class="search__img"
+          src="./images/main/searchImage1.svg"
+          alt="plantin nature"
+        >
+        </div>
+
       </section>
 
       <section class="new">

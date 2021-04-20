@@ -1,0 +1,37 @@
+.search {
+  background: #cfede6;
+  border-radius: 16px;
+
+  &__heading {
+    color: #04bf94;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+  }
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  color: #aaa;
+  display: block;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  width: 2.375rem;
+  z-index: 2;
+}

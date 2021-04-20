@@ -6,9 +6,9 @@ Template for vanilla(no framework) frontend projects
 - This page is adaptive to next devices: Notebook (> 1280px), Tablet (> 768px), Mobile (> 320px) ...
 
 # Links
-- [DEMO](https://yurasokal.github.io/example/)
-- [Code](https://github.com/yurasokal/example)
-- [The landing page]( .... )
+- [DEMO](https://yurasokal.github.io/plantin/)
+- [Code](https://github.com/yurasokal/plantin)
+- [The landing page]( ... )
 
 # Technologies
 - JavaScript

@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles/home.scss"],"names":[],"mappings":"AAIA,KACE,sCAAA,CACA","file":"home.b5c1dd7a.css","sourceRoot":"../src","sourcesContent":["/* TODO: add styles */\n\n$base-font-size: 16px;\n\nbody {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: $base-font-size;\n}\n"]}
