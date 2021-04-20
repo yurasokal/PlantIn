@@ -1,6 +1,16 @@
-.loadingContent {
+.footer {
+  margin: 24px 183px;
   display: flex;
   flex-direction: row;
-  gap: 32px;
-  margin-bottom: 100px;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #91a0b6;
+
+
+  &__anotation {
+    display: flex;
+    flex-direction: row;
+  }
 }
