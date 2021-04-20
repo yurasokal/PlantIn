@@ -1,0 +1,43 @@
+.interesting2 {
+  margin-bottom: 56px;
+
+  &__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #91a0b6;
+    margin-bottom: 16px;
+  }
+
+  &__inside {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__firstLine {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__secondLine {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__date {
+    font-weight: 400;
+    color: #adb8c8;
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #242424;
+  }
+
+  &__text {
+    font-weight: 400;
+    color: #adb8c8;
+  }
+}

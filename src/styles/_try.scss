@@ -1,0 +1,46 @@
+.try {
+  background: #cfede6;
+  border-radius: 16px;
+  display: flex;
+  margin-bottom: 56px;
+
+  &__left {
+    padding: 24px;
+  }
+
+  &__right {
+    align-items: right;
+  }
+
+  &__logo {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  &__heading {
+    color: #04bf94;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  &__text {
+    padding-bottom: 16px;
+    padding-top: 8px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  &__button {
+    background: #04bf94;
+    color: white;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 7px;
+  }
+}

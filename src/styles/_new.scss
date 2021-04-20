@@ -1,4 +1,6 @@
 .new {
+  margin-bottom: 56px;
+
   &__name {
     font-size: 14px;
     font-weight: 600;
@@ -13,11 +15,15 @@
   &__block {
     display: flex;
     flex-direction: row;
+    gap: 32px;
   }
 
+  // &__image {
+    
+  // }
+
   &__right {
-    padding-left: 32px;
-    max-width: 483px;
+    width: 521px;
   }
 
   &__date {
