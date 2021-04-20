@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yurasokal/example.git"
+    "url": "git+https://github.com/yurasokal/plantin.git"
   },
   "keywords": [
     "template",
@@ -31,9 +31,9 @@
   "author": "yurasokal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yurasokal/example/issues"
+    "url": "https://github.com/yurasokal/plantin/issues"
   },
-  "homepage": "https://github.com/yurasokal/example#readme",
+  "homepage": "https://github.com/yurasokal/plantin#readme",
   "devDependencies": {
     "concurrently": "^6.0.2",
     "eslint": "^7.24.0",
