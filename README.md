@@ -8,7 +8,7 @@ Template for vanilla(no framework) frontend projects
 # Links
 - [DEMO](https://yurasokal.github.io/example/)
 - [Code](https://github.com/yurasokal/example)
-- [The landing page]( ... )
+- [The landing page]( .... )
 
 # Technologies
 - JavaScript
