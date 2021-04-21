@@ -1,7 +1,13 @@
 .main {
-  margin: 24px 183px;
+  padding: 24px 183px;
 
   &__home {
     color: #91a0b6;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    padding: 0;
   }
 }

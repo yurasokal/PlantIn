@@ -6,11 +6,17 @@
   font-weight: 400;
   justify-content: space-between;
   line-height: 20px;
-  margin: 24px 183px;
+  padding: 24px 183px;
 
 
   &__anotation {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding: 0;
   }
 }

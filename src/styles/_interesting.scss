@@ -12,16 +12,19 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    // width: 100vw;
   }
 
   &__firstLine {
     display: flex;
     flex-direction: row;
+    // width: 100%;
   }
 
   &__secondLine {
     display: flex;
     flex-direction: row;
+    // width: 100%;
   }
 
   &__date {
@@ -39,5 +42,29 @@
   &__text {
     font-weight: 400;
     color: #adb8c8;
+  }
+
+  &__first {
+    width: 100%;
+  }
+
+  &__second {
+    width: 100%;
+  }
+
+  &__third {
+    width: 100%;
+  }
+
+  &__fourth {
+    width: 100%;
+  }
+
+  &__fifth {
+    width: 100%;
+  }
+
+  &__sixth {
+    width: 100%;
   }
 }

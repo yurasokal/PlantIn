@@ -1,5 +1,12 @@
-.topOfTheDay {
-  margin-bottom: 56px;
+.top {
+  &__inside {
+    
+    max-width: 4000px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+  }
 
   &__name {
     font-size: 14px;

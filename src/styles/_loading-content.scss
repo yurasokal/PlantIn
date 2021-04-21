@@ -1,6 +1,11 @@
-.loadingContent {
+.loading-content {
   display: flex;
   flex-direction: row;
   gap: 32px;
+  width: 100%;
   margin-bottom: 100px;
+  
+  &__image {
+    width: 100%;
+  }
 }

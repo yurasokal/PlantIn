@@ -38,7 +38,6 @@
   font-weight: 400;
   width: 450px;
   padding: 16px;
-
 }
 
 .has-search {
@@ -59,3 +58,12 @@
   width: 2.375rem;
   z-index: 2;
 }
+
+@media screen and (max-width: 1280px) {
+  .search {
+    &__right {
+      display: none;
+    }
+  }
+}
+

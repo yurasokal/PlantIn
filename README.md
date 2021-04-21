@@ -1,6 +1,3 @@
-# Start template
-Template for vanilla(no framework) frontend projects
-
 # Description
 - landing page includes header with burger menu, few blog sections and footer. Also there are few animations, buttons and links.
 - This page is adaptive to next devices: Notebook (> 1280px), Tablet (> 768px), Mobile (> 320px) ...
