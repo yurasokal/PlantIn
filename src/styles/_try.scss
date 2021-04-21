@@ -58,3 +58,25 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .try {  
+    &__heading {
+      font-size: 20px;
+      line-height: 48px;
+    }
+
+    &__left {
+      padding: 16px;
+    }
+  
+    &__text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &__button {
+      width: 100%;
+    }
+  }
+}
+
