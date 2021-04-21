@@ -11,17 +11,18 @@
   &__inside {
     display: flex;
     flex-direction: column;
-    gap: 32px;
   }
 
   &__firstLine {
     display: flex;
     flex-direction: row;
+    gap: 32px;
   }
 
   &__secondLine {
     display: flex;
     flex-direction: row;
+    gap: 32px;
   }
 
   &__date {
@@ -39,5 +40,9 @@
   &__text {
     font-weight: 400;
     color: #adb8c8;
+  }
+
+  &__image {
+    width: 100%;
   }
 }

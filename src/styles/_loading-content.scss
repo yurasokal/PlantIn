@@ -1,8 +1,8 @@
 .loading-content {
-  display: flex;
-  flex-direction: row;
+  max-width: 4000px;
+  display: grid;
   gap: 32px;
-  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 100px;
   
   &__image {

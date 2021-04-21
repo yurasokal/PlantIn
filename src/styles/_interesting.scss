@@ -9,22 +9,10 @@
   }
 
   &__inside {
-    display: flex;
-    flex-direction: column;
+    max-width: 4000px;
+    display: grid;
     gap: 32px;
-    // width: 100vw;
-  }
-
-  &__firstLine {
-    display: flex;
-    flex-direction: row;
-    // width: 100%;
-  }
-
-  &__secondLine {
-    display: flex;
-    flex-direction: row;
-    // width: 100%;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   &__date {
@@ -44,27 +32,27 @@
     color: #adb8c8;
   }
 
-  &__first {
-    width: 100%;
-  }
-
-  &__second {
-    width: 100%;
-  }
-
-  &__third {
-    width: 100%;
-  }
-
-  &__fourth {
-    width: 100%;
-  }
-
-  &__fifth {
-    width: 100%;
-  }
-
-  &__sixth {
+  &__image {
     width: 100%;
   }
 }
+
+// @media screen and (max-width: 1100px) {
+//   .interest {
+//     &__inside {
+//       grid-template-columns: repeat(2, 1fr);
+//       gap: 32px;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 768px) {
+//   .interest {
+//     &__inside {
+//       margin: 0 auto;
+//       text-align: center;
+//       grid-template-columns: repeat(1, 1fr);
+//       gap: 32px;
+//     }
+//   }
+// }
