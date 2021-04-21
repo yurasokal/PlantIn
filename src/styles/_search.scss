@@ -1,8 +1,9 @@
 .search {
-  background: #cfede6;
-  border-radius: 16px;
-  display: flex;
-  margin-bottom: 48px;
+  &__wrapper {
+    background: #cfede6;
+    border-radius: 16px;
+    display: flex;
+  }
 
   &__left {
     padding: 56px;
@@ -29,6 +30,10 @@
     font-weight: 500;
     line-height: 27px;
     text-align: left;
+  }
+
+  &__block {
+    margin-bottom: 48px;
   }
 }
 

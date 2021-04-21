@@ -1,7 +1,6 @@
 .interesting {
-  margin-bottom: 56px;
-
   &__name {
+    padding: 16px 0;
     font-size: 14px;
     font-weight: 600;
     color: #91a0b6;
@@ -34,6 +33,10 @@
 
   &__image {
     width: 100%;
+  }
+
+  &__block {
+    margin-bottom: 56px;
   }
 }
 

@@ -1,8 +1,9 @@
 .try {
-  background: #cfede6;
-  border-radius: 16px;
-  display: flex;
-  margin-bottom: 56px;
+  &__wrapper {
+    background: #cfede6;
+    border-radius: 16px;
+    display: flex;
+  }
 
   &__left {
     padding: 24px;
@@ -42,6 +43,10 @@
     padding: 8px 32px;
     border: none;
     border-radius: 7px;
+  }
+
+  &__block {
+    margin-bottom: 56px;
   }
 }
 
