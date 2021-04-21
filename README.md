@@ -2,13 +2,13 @@
 Template for vanilla(no framework) frontend projects
 
 # Description
-- landing page includes ...
+- landing page includes header with burger menu, few blog sections and footer. Also there are few animations, buttons and links.
 - This page is adaptive to next devices: Notebook (> 1280px), Tablet (> 768px), Mobile (> 320px) ...
 
 # Links
-- [DEMO](https://yurasokal.github.io/plantin/)
+- [DEMO link](https://yurasokal.github.io/plantin/)
 - [Code](https://github.com/yurasokal/plantin)
-- [The landing page]( ... )
+- [Figma design](https://www.figma.com/file/A0brwCV3qVRsL4uqrTgT56/PlantIn%2F-Test-Case?node-id=1%3A37)
 
 # Technologies
 - JavaScript
