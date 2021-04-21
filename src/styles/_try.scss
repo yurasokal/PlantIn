@@ -43,6 +43,21 @@
     padding: 8px 32px;
     border: none;
     border-radius: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    // color: violet;
+
+    border: 1px solid transparent;
+    // background: red;
+
+    transition: background-color 0.3s;
+
+    &:hover {
+      color: #04bf94;
+      background-color: #fff;
+    }
   }
 
   &__block {
