@@ -3,6 +3,7 @@
     background: $light-background-color;
     border-radius: 16px;
     display: flex;
+    justify-content: space-between;
   }
 
   &__left {
@@ -74,7 +75,7 @@
 }
 
 @media screen and (max-width: $ipad-screen) {
-  .try {  
+  .try { 
     &__heading {
       font-size: 20px;
       line-height: 48px;

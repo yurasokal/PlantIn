@@ -44,12 +44,14 @@
     &__anotation {
       flex-direction: column;
       text-align: center;
+      gap: 8px;
     }
 
     &__copyright {
       flex-direction: column;
       text-align: center;
-      padding-top: 20px; 
+      padding-top: 24px; 
+      gap: 8px;
     }
 
     &__terms {
