@@ -39,26 +39,11 @@
       gap: 32px;
     }
 
-    &__first {
-      text-align: start;
-    }
-
-    &__second {
-      text-align: start;
-    }
-
-    &__third {
-      text-align: start;
-    }
-
-    &__fourth {
-      text-align: start;
-    }
-
-    &__fifth {
-      text-align: start;
-    }
-
+    &__first,
+    &__second,
+    &__third,
+    &__fourth,
+    &__fifth,
     &__sixth {
       text-align: start;
     }
