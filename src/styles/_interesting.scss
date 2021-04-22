@@ -1,9 +1,10 @@
 .interesting {
   &__name {
+    text-transform: uppercase;
     padding: 16px 0;
     font-size: 14px;
     font-weight: 600;
-    color: #91a0b6;
+    color: $body-background-color;
     margin-bottom: 16px;
   }
 
@@ -16,19 +17,19 @@
 
   &__date {
     font-weight: 400;
-    color: #adb8c8;
+    color: $text-color;
   }
 
   &__heading {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    color: #242424;
+    color: $large-text-color;
   }
 
   &__text {
     font-weight: 400;
-    color: #adb8c8;
+    color: $text-color;
   }
 
   &__image {
@@ -40,33 +41,18 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: $analog-screen) {
   .interesting {
     &__inside {
       grid-template-columns: repeat(2, 1fr);
       gap: 32px;
     }
 
-    &__first {
-      text-align: start;
-    }
-
-    &__second {
-      text-align: start;
-    }
-
-    &__third {
-      text-align: start;
-    }
-
-    &__fourth {
-      text-align: start;
-    }
-
-    &__fifth {
-      text-align: start;
-    }
-
+    &__first,
+    &__second,
+    &__third,
+    &__fourth,
+    &__fifth,
     &__sixth {
       text-align: start;
     }
@@ -88,7 +74,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $ipad-screen) {
   .interesting {
     &__inside {
       margin: 0 auto;

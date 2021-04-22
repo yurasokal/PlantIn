@@ -1,6 +1,6 @@
 .search {
   &__wrapper {
-    background: #cfede6;
+    background: $light-background-color;
     border-radius: 16px;
     display: flex;
   }
@@ -14,7 +14,7 @@
   }
 
   &__heading {
-    color: #04bf94;
+    color: $main-background-color;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -61,10 +61,10 @@
   text-align: center;
   top: 15px;
   width: 2.375rem;
-  z-index: 2;
+  z-index: 1;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: $laptop-screen) {
   .search {
     &__right {
       display: none;
@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $ipad-screen) {
   .search {
     &__wrapper {
       padding: 16px;
@@ -100,7 +100,7 @@
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: $mobile-screen) {
   .search {
     &__heading {
       font-size: 24px;

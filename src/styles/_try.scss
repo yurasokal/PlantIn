@@ -1,6 +1,6 @@
 .try {
   &__wrapper {
-    background: #cfede6;
+    background: $light-background-color;
     border-radius: 16px;
     display: flex;
   }
@@ -19,7 +19,7 @@
   }
 
   &__heading {
-    color: #04bf94;
+    color: $main-background-color;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -38,7 +38,7 @@
   }
 
   &__button {
-    background: #04bf94;
+    background: $main-background-color;
     color: white;
     padding: 8px 32px;
     border: none;
@@ -55,8 +55,8 @@
     transition: background-color 0.3s;
 
     &:hover {
-      color: #04bf94;
-      background-color: #fff;
+      color: $main-background-color;
+      background-color: $white-color;
     }
   }
 
@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: $laptop-screen) {
   .try {
     &__right {
       display: none;
@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $ipad-screen) {
   .try {  
     &__heading {
       font-size: 20px;

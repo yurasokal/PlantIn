@@ -2,18 +2,18 @@
   padding: 24px 183px;
 
   &__home {
-    color: #91a0b6;
+    color: $body-background-color;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: $laptop-screen) {
   .main {
     padding-left: 24px;
     padding-right: 13px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $ipad-screen) {
   .main {
     padding-left: 16px;
     padding-right: 16px;

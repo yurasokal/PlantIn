@@ -1,5 +1,5 @@
 .footer {
-  color: #91a0b6;
+  color: $body-background-color;
   display: flex;
   flex-direction: row;
   font-size: 14px;
@@ -8,21 +8,33 @@
   line-height: 20px;
   padding: 24px 183px;
 
-
   &__anotation {
     display: flex;
     flex-direction: row;
   }
+
+  &__copyright {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__terms {
+    border-right: 1px solid $text-color;
+  }
+
+  &__privacy {
+    border-right: 1px solid $text-color;
+  }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: $laptop-screen) {
   .footer {
     padding-left: 24px;
     padding-right: 13px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: $ipad-screen) {
   .footer {
     flex-direction: column;
     align-items: center;
@@ -30,7 +42,22 @@
     padding-right: 16px;
 
     &__anotation {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__copyright {
+      flex-direction: column;
+      text-align: center;
       padding-top: 20px; 
+    }
+
+    &__terms {
+      border-right: 0;
+    }
+  
+    &__privacy {
+      border-right: 0;
     }
   }
 }
