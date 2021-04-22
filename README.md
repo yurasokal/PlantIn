@@ -1,6 +1,6 @@
 # Description
-- landing page includes header with burger menu, few blog sections and footer. Also there are few animations, buttons and links.
-- This page is adaptive to next devices: Notebook (> 1280px), Tablet (> 768px), Mobile (> 320px) ...
+- Landing page includes header with burger menu, few blog sections and footer. Also there are few animations, buttons and links.
+- This page is responsive and adaptive to next devices: Notebook (> 1280px), Tablet (< 768px), Mobile (> 320px)
 
 # Links
 - [DEMO link](https://yurasokal.github.io/plantin/)
